@@ -13,4 +13,4 @@ jobs:
       - name: Verificar conectividade com Google
         run: |
           echo "Iniciando teste de ping..."
-          ping -c 4 8.8.8.8
+          ping 8.8.8.8
